@@ -1,6 +1,6 @@
 # Property service for vacation rentals #
 
-This is a **Property Service** component for vacation rentals managing written in **Java 8** and using the **Spring-Boot** framework to develop the **REST API** that allows any client to connect to the service and manage and view different properties.
+This is a **Property Service** component for vacation rentals managing, written in **Java 8** and using the **Spring-Boot** framework to develop the **REST API** that allows any client to connect to the service and manage and view different properties.
 
 The build tool used is **Gradle**. In the **build.gradle** file, there are all the dependencies needed for the project.
 
