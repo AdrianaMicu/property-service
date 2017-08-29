@@ -1,19 +1,24 @@
 package com.property.rental.controllers;
 
+import java.util.UUID;
+
+import javax.validation.Valid;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.bind.annotation.RestController;
+
 import com.google.i18n.phonenumbers.NumberParseException;
 import com.property.rental.domain.Listing;
 import com.property.rental.mappers.ListingMapper;
 import com.property.rental.services.ListingService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
-import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
-import java.util.UUID;
-
-@Validated
 @RestController
 @RequestMapping(value = "/")
 public class ListingController {

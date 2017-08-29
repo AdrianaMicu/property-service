@@ -1,7 +1,6 @@
 package com.property.rental.controllers.util;
 
 import com.property.rental.controllers.AddressRequest;
-import com.property.rental.controllers.CreateAddressRequest;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
